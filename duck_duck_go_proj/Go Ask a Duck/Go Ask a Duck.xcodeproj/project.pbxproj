@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA32E3391F3E97D5002BABBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E3381F3E97D5002BABBC /* AppDelegate.swift */; };
+		AA32E33B1F3E97D5002BABBC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E33A1F3E97D5002BABBC /* MasterViewController.swift */; };
+		AA32E33D1F3E97D6002BABBC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E33C1F3E97D6002BABBC /* DetailViewController.swift */; };
+		AA32E3401F3E97D6002BABBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA32E33E1F3E97D6002BABBC /* Main.storyboard */; };
+		AA32E3421F3E97D6002BABBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA32E3411F3E97D6002BABBC /* Assets.xcassets */; };
+		AA32E3451F3E97D6002BABBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA32E3431F3E97D6002BABBC /* LaunchScreen.storyboard */; };
+		AA32E3501F3E97D6002BABBC /* Go_Ask_a_DuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E34F1F3E97D6002BABBC /* Go_Ask_a_DuckTests.swift */; };
+		AA32E35B1F3E98EF002BABBC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E35A1F3E98EF002BABBC /* Theme.swift */; };
+		AA32E3611F3EB293002BABBC /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E3601F3EB293002BABBC /* BookmarkTableViewController.swift */; };
+		AA32E3651F3EC3B2002BABBC /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E3641F3EC3B2002BABBC /* Result.swift */; };
+		AA32E3671F3ECD79002BABBC /* JSONServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E3661F3ECD79002BABBC /* JSONServices.swift */; };
+		AA32E3691F3EE49A002BABBC /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32E3681F3EE49A002BABBC /* MasterTableViewCell.swift */; };
+		AAF3C0C11F3F5CED00CD2639 /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF3C0C01F3F5CED00CD2639 /* BookmarkTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA32E34C1F3E97D6002BABBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA32E32D1F3E97D5002BABBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA32E3341F3E97D5002BABBC;
+			remoteInfo = "Go Ask a Duck";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA32E3351F3E97D5002BABBC /* Go Ask a Duck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Ask a Duck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA32E3381F3E97D5002BABBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA32E33A1F3E97D5002BABBC /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AA32E33C1F3E97D6002BABBC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AA32E33F1F3E97D6002BABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA32E3411F3E97D6002BABBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA32E3441F3E97D6002BABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA32E3461F3E97D6002BABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA32E34B1F3E97D6002BABBC /* Go Ask a DuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Ask a DuckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA32E34F1F3E97D6002BABBC /* Go_Ask_a_DuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Ask_a_DuckTests.swift; sourceTree = "<group>"; };
+		AA32E3511F3E97D6002BABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA32E35A1F3E98EF002BABBC /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AA32E3601F3EB293002BABBC /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookmarkTableViewController.swift; path = ../BookmarkTableViewController.swift; sourceTree = "<group>"; };
+		AA32E3641F3EC3B2002BABBC /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = ../Result.swift; sourceTree = "<group>"; };
+		AA32E3661F3ECD79002BABBC /* JSONServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONServices.swift; sourceTree = "<group>"; };
+		AA32E3681F3EE49A002BABBC /* MasterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		AAF3C0C01F3F5CED00CD2639 /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA32E3321F3E97D5002BABBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32E3481F3E97D6002BABBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA32E32C1F3E97D5002BABBC = {
+			isa = PBXGroup;
+			children = (
+				AA32E3371F3E97D5002BABBC /* Go Ask a Duck */,
+				AA32E34E1F3E97D6002BABBC /* Go Ask a DuckTests */,
+				AA32E3361F3E97D5002BABBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA32E3361F3E97D5002BABBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA32E3351F3E97D5002BABBC /* Go Ask a Duck.app */,
+				AA32E34B1F3E97D6002BABBC /* Go Ask a DuckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA32E3371F3E97D5002BABBC /* Go Ask a Duck */ = {
+			isa = PBXGroup;
+			children = (
+				AA32E3381F3E97D5002BABBC /* AppDelegate.swift */,
+				AA32E33A1F3E97D5002BABBC /* MasterViewController.swift */,
+				AA32E3681F3EE49A002BABBC /* MasterTableViewCell.swift */,
+				AA32E33C1F3E97D6002BABBC /* DetailViewController.swift */,
+				AA32E3601F3EB293002BABBC /* BookmarkTableViewController.swift */,
+				AAF3C0C01F3F5CED00CD2639 /* BookmarkTableViewCell.swift */,
+				AA32E35A1F3E98EF002BABBC /* Theme.swift */,
+				AA32E3641F3EC3B2002BABBC /* Result.swift */,
+				AA32E3661F3ECD79002BABBC /* JSONServices.swift */,
+				AA32E33E1F3E97D6002BABBC /* Main.storyboard */,
+				AA32E3411F3E97D6002BABBC /* Assets.xcassets */,
+				AA32E3431F3E97D6002BABBC /* LaunchScreen.storyboard */,
+				AA32E3461F3E97D6002BABBC /* Info.plist */,
+			);
+			path = "Go Ask a Duck";
+			sourceTree = "<group>";
+		};
+		AA32E34E1F3E97D6002BABBC /* Go Ask a DuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA32E34F1F3E97D6002BABBC /* Go_Ask_a_DuckTests.swift */,
+				AA32E3511F3E97D6002BABBC /* Info.plist */,
+			);
+			path = "Go Ask a DuckTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA32E3341F3E97D5002BABBC /* Go Ask a Duck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA32E3541F3E97D6002BABBC /* Build configuration list for PBXNativeTarget "Go Ask a Duck" */;
+			buildPhases = (
+				AA32E3311F3E97D5002BABBC /* Sources */,
+				AA32E3321F3E97D5002BABBC /* Frameworks */,
+				AA32E3331F3E97D5002BABBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go Ask a Duck";
+			productName = "Go Ask a Duck";
+			productReference = AA32E3351F3E97D5002BABBC /* Go Ask a Duck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA32E34A1F3E97D6002BABBC /* Go Ask a DuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA32E3571F3E97D6002BABBC /* Build configuration list for PBXNativeTarget "Go Ask a DuckTests" */;
+			buildPhases = (
+				AA32E3471F3E97D6002BABBC /* Sources */,
+				AA32E3481F3E97D6002BABBC /* Frameworks */,
+				AA32E3491F3E97D6002BABBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA32E34D1F3E97D6002BABBC /* PBXTargetDependency */,
+			);
+			name = "Go Ask a DuckTests";
+			productName = "Go Ask a DuckTests";
+			productReference = AA32E34B1F3E97D6002BABBC /* Go Ask a DuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA32E32D1F3E97D5002BABBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Samantha Rey";
+				TargetAttributes = {
+					AA32E3341F3E97D5002BABBC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NHMU5UC8U7;
+						ProvisioningStyle = Automatic;
+					};
+					AA32E34A1F3E97D6002BABBC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NHMU5UC8U7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA32E3341F3E97D5002BABBC;
+					};
+				};
+			};
+			buildConfigurationList = AA32E3301F3E97D5002BABBC /* Build configuration list for PBXProject "Go Ask a Duck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA32E32C1F3E97D5002BABBC;
+			productRefGroup = AA32E3361F3E97D5002BABBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA32E3341F3E97D5002BABBC /* Go Ask a Duck */,
+				AA32E34A1F3E97D6002BABBC /* Go Ask a DuckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA32E3331F3E97D5002BABBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA32E3451F3E97D6002BABBC /* LaunchScreen.storyboard in Resources */,
+				AA32E3421F3E97D6002BABBC /* Assets.xcassets in Resources */,
+				AA32E3401F3E97D6002BABBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32E3491F3E97D6002BABBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA32E3311F3E97D5002BABBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA32E3651F3EC3B2002BABBC /* Result.swift in Sources */,
+				AA32E33D1F3E97D6002BABBC /* DetailViewController.swift in Sources */,
+				AAF3C0C11F3F5CED00CD2639 /* BookmarkTableViewCell.swift in Sources */,
+				AA32E35B1F3E98EF002BABBC /* Theme.swift in Sources */,
+				AA32E3691F3EE49A002BABBC /* MasterTableViewCell.swift in Sources */,
+				AA32E3611F3EB293002BABBC /* BookmarkTableViewController.swift in Sources */,
+				AA32E3671F3ECD79002BABBC /* JSONServices.swift in Sources */,
+				AA32E33B1F3E97D5002BABBC /* MasterViewController.swift in Sources */,
+				AA32E3391F3E97D5002BABBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32E3471F3E97D6002BABBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA32E3501F3E97D6002BABBC /* Go_Ask_a_DuckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA32E34D1F3E97D6002BABBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA32E3341F3E97D5002BABBC /* Go Ask a Duck */;
+			targetProxy = AA32E34C1F3E97D6002BABBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA32E33E1F3E97D6002BABBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA32E33F1F3E97D6002BABBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA32E3431F3E97D6002BABBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA32E3441F3E97D6002BABBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA32E3521F3E97D6002BABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA32E3531F3E97D6002BABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA32E3551F3E97D6002BABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NHMU5UC8U7;
+				INFOPLIST_FILE = "Go Ask a Duck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Go-Ask-a-Duck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA32E3561F3E97D6002BABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NHMU5UC8U7;
+				INFOPLIST_FILE = "Go Ask a Duck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Go-Ask-a-Duck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA32E3581F3E97D6002BABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NHMU5UC8U7;
+				INFOPLIST_FILE = "Go Ask a DuckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Go-Ask-a-DuckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Ask a Duck.app/Go Ask a Duck";
+			};
+			name = Debug;
+		};
+		AA32E3591F3E97D6002BABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NHMU5UC8U7;
+				INFOPLIST_FILE = "Go Ask a DuckTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Go-Ask-a-DuckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Ask a Duck.app/Go Ask a Duck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA32E3301F3E97D5002BABBC /* Build configuration list for PBXProject "Go Ask a Duck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA32E3521F3E97D6002BABBC /* Debug */,
+				AA32E3531F3E97D6002BABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA32E3541F3E97D6002BABBC /* Build configuration list for PBXNativeTarget "Go Ask a Duck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA32E3551F3E97D6002BABBC /* Debug */,
+				AA32E3561F3E97D6002BABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA32E3571F3E97D6002BABBC /* Build configuration list for PBXNativeTarget "Go Ask a DuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA32E3581F3E97D6002BABBC /* Debug */,
+				AA32E3591F3E97D6002BABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA32E32D1F3E97D5002BABBC /* Project object */;
+}
